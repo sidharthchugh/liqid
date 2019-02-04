@@ -1,2 +1,2 @@
-# liqid
-Liqid Frontend coding challenge
+Liqid Frontend Coding Challenge
+===================================
