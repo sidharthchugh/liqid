@@ -1,0 +1,55 @@
+// vars
+
+$primary-color: #e6223c;
+$secondary-color: #e6223c;
+
+// style
+
+.app-header {
+  height: 70px;
+  background-color: #fff;
+  border-bottom: 1px solid #eee;
+  padding: 0 100px;
+  display: flex;
+}
+	
+.app-logo {
+  width: 94px;
+}
+
+.app-container {
+	text-align: center;
+	margin: 0 auto;
+	padding: 60px;
+  max-width: 1140px;
+}
+
+.btn {
+  border-radius: 50px;
+  padding: 6px 25px;
+}
+
+.btn[disabled] {
+  pointer-events: none;
+  color: #252731;
+  background-color: #d9d9da;
+  border-color: #d9d9da;
+}
+
+.btn-primary {	
+	background-color: $primary-color;
+	border-color: $primary-color;
+	&:hover, &:active, &:not(:disabled):not(.disabled):active {	
+		background-color: #bf162c;
+    border-color: #b6152a;
+	}
+}
+
+.btn-seconday {
+	background-color: $secondary-color;
+	border-color: $secondary-color;
+	&:hover, &:active, &:not(:disabled):not(.disabled):active {	
+		background-color: #bf162c;
+    border-color: #b6152a;
+	}
+}

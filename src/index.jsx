@@ -8,6 +8,7 @@ import rootReducer from './reducers';
 import rootSaga from './sagas';
 
 import App from './components/App';
+import './index.scss';
 
 const sagaMiddleware = createSagaMiddleware();
 
@@ -19,7 +20,7 @@ const store = createStore(
 sagaMiddleware.run(rootSaga);
 
 const element = document.getElementById('root');
-console.log(element);
+
 if (!element) {
   throw new Error("Couldn't find element with id root.")
 }
