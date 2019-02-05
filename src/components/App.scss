@@ -3,7 +3,15 @@
 $primary-color: #e6223c;
 $secondary-color: #e6223c;
 
-// style
+// styles
+
+h2 {
+  margin: 40px 0 20px;
+}
+
+.app {
+  text-align: center;
+}
 
 .app-header {
   height: 70px;
@@ -18,10 +26,8 @@ $secondary-color: #e6223c;
 }
 
 .app-container {
-	text-align: center;
 	margin: 0 auto;
-	padding: 60px;
-  max-width: 1140px;
+  max-width: 768px;
 }
 
 .btn {
@@ -45,11 +51,42 @@ $secondary-color: #e6223c;
 	}
 }
 
-.btn-seconday {
-	background-color: $secondary-color;
-	border-color: $secondary-color;
-	&:hover, &:active, &:not(:disabled):not(.disabled):active {	
-		background-color: #bf162c;
-    border-color: #b6152a;
-	}
+.progress {
+  height: 10px;
+  border-radius: 0;
+  .progress-bar {
+    background-color: $primary-color;
+  }
+}
+
+.survey-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.restart-button-container {
+  button {
+    float: right;
+    margin-bottom: 20px;
+  }
+}
+
+form, .answers-list {
+  clear: right;
+}
+
+.answers-item {
+  margin-bottom: 20px;
+}
+
+textarea {
+  min-height: 200px;
+}
+
+.progress-bar-container {
+  margin-bottom: 20px;
+}
+
+input[type="radio" i] {    
+  cursor: pointer;
 }
