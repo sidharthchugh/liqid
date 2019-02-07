@@ -1,10 +1,7 @@
 // vars
-
 $primary-color: #e6223c;
-$secondary-color: #e6223c;
 
 // styles
-
 h2 {
   margin: 40px 0 20px;
 }
@@ -79,11 +76,11 @@ form, .answers-list {
   margin-bottom: 20px;
 }
 
-textarea {
-  min-height: 200px;
+textarea, .input-container {
+  min-height: 150px;
 }
 
-.progress-bar-container {
+.progress {
   margin-bottom: 20px;
 }
 
